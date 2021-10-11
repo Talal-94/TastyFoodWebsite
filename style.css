@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
-/* ====== globals ====== */
+/* ====== GLOBALS ====== */
 :root {
     --header-height: 3rem;
     /* ====== colors ====== */
@@ -239,6 +239,20 @@ button:hover {
     background-color: var(--first-color-alt);
 }
     /* ====== ABOUT ====== */ 
+.about__data {
+    text-align: center;
+    }
+.about__description {
+    margin-bottom: var(--mb-3);
+}
+.about__img {
+    width: 280px;
+    border-radius: 0.5rem;
+    justify-self: center;
+}
+
+
+
     /* ====== SERVICES ====== */ 
     /* ====== MENU ====== */ 
     /* ====== app ====== */ 
